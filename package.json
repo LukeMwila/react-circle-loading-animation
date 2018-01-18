@@ -1,7 +1,7 @@
 {
   "name": "react-circle-loading-animation",
-  "version": "0.0.1",
-  "description": "An easy to use circle animation component to be displayed when loading or progress between transitions.",
+  "version": "0.0.2",
+  "description": "An easy to use circle animation ReactJS component to be displayed when loading or progress between transitions.",
   "main": "build/index.js",
   "peerDependencies": {
     "react": "^15.5.4"
@@ -29,5 +29,9 @@
     "babel-preset-env": "^1.5.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/LukeMwila/react-circle-loading-animation/issues"
+  },
+  "homepage": "https://github.com/LukeMwila/react-circle-loading-animation#readme"
 }
