@@ -4,14 +4,15 @@ import CircleAnimation from './CircleAnimation'
 
 class LoadingAnimation extends Component {
   render () {
+    const { isLoading, color } = this.props
     let divStyle = {
-      display: (this.props.isLoading === true) ? 'block' : 'none'
+      display: (isLoading === true) ? 'block' : 'none'
     }
 
     return (
       <div style={divStyle}>
         <LoadingOverlay>
-          <CircleAnimation />
+          <CircleAnimation color={color} />
         </LoadingOverlay>
       </div>
     )

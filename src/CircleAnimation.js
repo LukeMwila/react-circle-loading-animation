@@ -8,7 +8,7 @@ const circleSpin = keyframes`
 const CircleAnimation = styled.div`
   border: 7px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 7px solid #dbbb2d;
+  border-top: 7px solid ${props => (!props.color ? '#6699ff' : props.color)};
   width: 100px;
   height: 100px;
   -webkit-animation: ${circleSpin} 1.2s linear infinite; 

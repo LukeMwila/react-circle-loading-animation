@@ -25,6 +25,7 @@ import LoadingAnimation from 'react-circle-loading-animation'
 ```
 #### LoadingAnimation props
 
-| Props                  | Default values | Possible values                            |
-| ---------------------- | -------------- | ------------------------------------------ |
-| isLoading              | false          | Boolean                                    |
+| Props     | Default values | Possible values |
+| --------- | -------------- | --------------- |
+| isLoading | false          | Boolean         |
+| color     | #6699ff        | String          |
