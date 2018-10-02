@@ -21,7 +21,7 @@ import LoadingAnimation from 'react-circle-loading-animation'
 ### LoadingAnimation
 
 ```js
-<LoadingAnimation isLoading={true} />
+<LoadingAnimation isLoading={true} color={red} />
 ```
 #### LoadingAnimation props
 
